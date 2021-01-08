@@ -1,0 +1,61 @@
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+/* These rules apply to the high-res display and cascade down to the medium and low-res displays */
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+header {
+    width: 100%; 
+    height: 60px; 
+    background-color: rgb(0, 0, 0);
+    padding: 5px 0;
+}
+
+#logo img {
+    width: 200px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    width: 940px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(150, 0, 0);
+}
+
+nav {
+    margin-top: 3px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+input.search {
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 15px;
+    border: 1px solid rgb(150, 150, 150);
+    width: 140px;
+    background: rgb(255, 255, 255) url(search.png) no-repeat 4px 4px;
+    padding: 4px 4px 4px 30px;
+    margin-right: 10px;
+}
