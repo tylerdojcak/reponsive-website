@@ -34,7 +34,6 @@ header {
     width: 940px;
     height: 100%;
     margin: 0 auto;
-    background-color: rgb(150, 0, 0);
 }
 
 nav {
@@ -228,4 +227,18 @@ section.get .button {
     margin-right: 60px;
     margin-top: 25px;
     padding-top: 7px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+footer nav li a {
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: normal;
 }
