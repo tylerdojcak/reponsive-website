@@ -177,7 +177,7 @@ section.organize {
     border-bottom: 1px solid rgb(200, 200, 200);
 }
 
-section.organize img {
+section.organize img, section.share img {
     width: 440px;
     height: 225px;
     float: left;
@@ -185,15 +185,47 @@ section.organize img {
     margin-top: 20px;
 }
 
-.organizecontent {
+.organizecontent, .sharecontent {
     float: left;
     margin-left: 20px;
     width: 440px;
 }
 
-.organizecontent h2 {
+.organizecontent h2, .sharecontent h2 {
     font-family: 'Oleo Script Swash Caps', cursive;
     color: rgb(113, 80, 109);
     font-size: 225%;
     margin-bottom: -20px;
+}
+
+section.share {
+    width: 940px;
+    height: 260px;
+    margin: 0 auto 5px;
+    padding: 5px 0;
+}
+
+section.get {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(113, 80, 109);
+    padding: 5px 0;
+}
+
+section.get h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 250%;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    margin-top: 25px;
+    font-weight: normal;
+    float: left;
+}
+
+section.get .button {
+    width: 158px;
+    height: 38px;
+    margin-right: 60px;
+    margin-top: 25px;
+    padding-top: 7px;
 }
