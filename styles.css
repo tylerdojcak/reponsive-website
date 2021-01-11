@@ -242,3 +242,133 @@ footer nav li a {
     text-decoration: underline;
     font-weight: normal;
 }
+
+/* These rules apply to the medium resolution display and cascade down to the low resolution display*/
+
+@media (max-width: 768px) {
+    body {
+
+    }
+    header {
+
+    }
+        #logo {
+
+        }
+        #logo img {
+            width: 25%;
+        }
+        nav {
+
+        }
+        nav li {
+            margin-right: 15px;
+            font-size: 90%;
+        }
+        nav li a {
+
+        }
+        input.search {
+            width: 10%;
+        }
+    section.hero {
+        background-size: 770px 410px;
+        margin-bottom: 0;
+        max-height: 100%;
+        padding-bottom: 10px;
+    }
+        .heroimage {
+            margin: 50px 0 0 20px;
+            width: 50%;
+        }
+        .herocontent {
+            width: 40%;
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+        section.hero h1 {
+            font-size: 290%;
+        }
+        section.hero p {
+            margin-bottom: 20px;
+        }
+        .button {
+            width: 200px;
+            height: 35px;
+            padding-top: 10px;
+            font-size: 150%;
+        }
+        .button a {
+
+        }
+        .button:hover {
+
+        }
+    section.features{
+        width: 100%;
+    }
+        section.features h2 {
+            margin-top: 20px;
+        }
+        section.features h4 {
+
+        }
+        section.features aside {
+            width: 33%;
+            height: auto;
+            margin-left: 0;
+        }
+        section.features aside img {
+            width: 100%;
+            height: auto;
+        }
+        section.features aside h3 {
+
+        }
+    section.organize {
+        padding: 0 0 80px 0;
+    }
+        section.organize img, section.share img {
+            width: 50%;
+            height: auto;
+            margin-left: 10px;
+            margin-top: 60px;
+        }
+        .organizecontent, .sharecontent {
+            width: 40%;
+        }
+        .organizecontent h2, .sharecontent h2 {
+            line-height: 90%;
+            margin-bottom: 5px;
+            margin-left: 10px;
+        }
+    section.share {
+        width: 100%;
+        padding: 0 0 80px 0;
+    }
+    section.get {
+
+    }
+        section.get h2 {
+            font-size: 180%;
+            margin-left: 10px;
+        }
+        section.get .button {
+            margin-right: 10px;
+        }
+    footer {
+
+    }
+        footer nav {
+
+        }
+        footer nav li a {
+
+        }
+    .container {
+        width: 100%;
+    }
+}
+
+/* These rules apply to the low resolution display and do not cascade */
+
