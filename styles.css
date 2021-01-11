@@ -38,6 +38,7 @@ header {
 
 nav {
     margin-top: 3px;
+    float: right;
 }
 
 nav li {
@@ -95,6 +96,7 @@ section.hero p {
 
 .heroimage {
     margin: 70px 0 0 20px;
+    float: left;
 }
 
 .button {
@@ -372,3 +374,133 @@ footer nav li a {
 
 /* These rules apply to the low resolution display and do not cascade */
 
+@media (max-width: 320px) {
+    body {
+
+    }
+    header {
+        height: auto;
+    }
+        #logo {
+            margin: auto;
+            width: 200px;
+        }
+        #logo img {
+            margin: 0 0 10px 0;
+            width: 200px;
+        }
+        nav {
+            float: none;
+            margin-left: -15px;
+        }
+        nav li {
+
+        }
+        nav li a {
+
+        }
+        input.search {
+            display: none;
+        }
+    section.hero {
+        background-size: 1000px 800px;
+        padding-bottom: 20px; 
+    }
+        .heroimage {
+            float: none;
+            width: 100%;
+            margin: 20px 0 -50px 0;
+        }
+        .herocontent {
+            width: 90%;
+            margin: 0 auto;
+            padding: 0;
+            float: none;
+            text-align: center;
+        }
+        section.hero h1 {
+
+        }
+        section.hero p {
+
+        }
+        .button {
+            margin: 0 auto;
+        }
+        .button a {
+
+        }
+        .button:hover {
+
+        }
+    section.features{
+        width: 90%;
+        height: auto;
+    }
+        section.features h2 {
+            line-height: 100%;
+            margin-bottom: -15px;
+        }
+        section.features h4 {
+
+        }
+        section.features aside {
+            float: none;
+            width: 100%;
+        }
+        section.features aside img {
+
+        }
+        section.features aside h3 {
+
+        }
+    section.organize {
+        width: 100%;
+        height: auto;
+    }
+        section.organize img, section.share img {
+            width: 100%;
+            float: none;
+        }
+        .organizecontent, .sharecontent {
+            float: none;
+            width: 90%;
+            margin: 0 auto;
+            padding: 0 10px;
+            text-align: center;
+        }
+        .organizecontent h2, .sharecontent h2 {
+
+        }
+    section.share {
+        width: 90%;
+        height: auto;
+    }
+    section.get {
+        height: auto;
+        text-align: center;
+        padding: 20px 0;
+    }
+        section.get h2 {
+            float: none;
+            line-height: 100%;
+            margin: 0 0 10px 0;
+        }
+        section.get .button {
+            float: none;
+            margin: 0 auto;
+        }
+    footer {
+
+    }
+        footer nav {
+
+        }
+        footer nav li a {
+            font-size: 140%;
+            width: 30%;
+        }
+    .container {
+        width: 90%;
+    }
+}
